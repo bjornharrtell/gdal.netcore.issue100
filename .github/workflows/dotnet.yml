@@ -23,8 +23,8 @@ jobs:
     - name: Apt deps
       run: sudo apt-get install dotnet6
     - name: Restore dependencies
-      run: dotnet restore
+      run: /usr/bin/dotnet restore
     - name: Build
-      run: dotnet build --no-restore
+      run: /usr/bin/dotnet build --no-restore
     - name: Run
-      run: dotnet run
+      run: /usr/bin/dotnet run
