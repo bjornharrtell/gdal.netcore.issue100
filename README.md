@@ -1,0 +1,1 @@
+# gdal.netcore.issue100
